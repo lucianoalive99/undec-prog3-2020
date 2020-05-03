@@ -1,6 +1,6 @@
 package ISP;
 
-public class Perro extends Animal{
+public class Perro extends Animal implements IMascota{
 
 	@Override
 	public void Alimentar() {
