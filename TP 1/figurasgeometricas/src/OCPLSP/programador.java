@@ -1,4 +1,4 @@
-package OCP;
+package OCPLSP;
 
 public class programador extends empleado {
 

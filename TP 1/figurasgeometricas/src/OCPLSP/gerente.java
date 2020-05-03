@@ -1,4 +1,4 @@
-package OCP;
+package OCPLSP;
 
 public class gerente extends empleado{
 

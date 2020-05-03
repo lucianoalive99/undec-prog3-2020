@@ -1,4 +1,4 @@
-package OCP;
+package OCPLSP;
 
 public abstract class empleado {
 	public String nombre;
