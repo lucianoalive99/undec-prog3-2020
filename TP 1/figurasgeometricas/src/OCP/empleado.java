@@ -1,10 +1,10 @@
 package OCP;
 
-public class empleado {
+public abstract class empleado {
 	public String nombre;
 	public double sueldo;
 	public double bono;
-	public tipoEmpleado tipo;
+
 	
 	
 	public String getNombre() {
@@ -25,22 +25,15 @@ public class empleado {
 	public void setBono(double bono) {
 		this.bono = bono;
 	}
-	public tipoEmpleado getTipo() {
-		return tipo;
-	}
-	public void setTipo(tipoEmpleado tipo) {
-		this.tipo = tipo;
-	}
 	
-	
-	public empleado(String nombre, double sueldo, double bono, tipoEmpleado tipo) {
+	public empleado(String nombre, double sueldo, double bono) {
 		super();
 		this.nombre = nombre;
 		this.sueldo = sueldo;
 		this.bono = bono;
-		this.tipo = tipo;
 	}
-	
+
+	public abstract void calcularBono();
 }
 
 
