@@ -1,12 +1,11 @@
 package clasesTest;
 
-import clases.Aeropuerto;
-import clases.Avión;
+import clases.Avion;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class AviónTest {
+class AvionTest {
 
     @Test
     void cargarNuevoAvion_creacionCorrecta(){
@@ -17,7 +16,7 @@ class AviónTest {
         int añoFabricacion = 2015;
 
         // Act
-        Avión elAvion = new Avión("LV-CDY","Embraer 190",96,2015);
+        Avion elAvion = new Avion("LV-CDY","Embraer 190",96,2015);
 
         // Assert
         assertEquals(matricula,elAvion.getMatricula());
@@ -32,7 +31,7 @@ class AviónTest {
         String matriculaNueva = "LV-CDZ";
 
         // Act
-        Avión elAvionViejo = new Avión("LV-CDY","Embraer 190",96,2015);
+        Avion elAvionViejo = new Avion("LV-CDY","Embraer 190",96,2015);
 
         elAvionViejo.setMatricula(matriculaNueva);
 
@@ -46,9 +45,7 @@ class AviónTest {
         // Arrange y Act
 
         // Assert
-        assertThrows(NullPointerException.class() -> new Avión(null,"Embraer 190",96,2015));
-        Throwable excepcion;
-        excepcion = assertThrows(NullPointerException.class; () -> new Avión(null,"Embraer 190",96,2015));
+        Throwable excepcion =  assertThrows(NullPointerException.class, () -> new Avion(null,"Embraer 190",96,2015));
         assertEquals("El ID del avion no puede ser nulo",excepcion.getMessage());
     }
 
