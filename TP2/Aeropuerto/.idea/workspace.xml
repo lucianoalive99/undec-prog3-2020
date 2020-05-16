@@ -19,7 +19,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77abbbf6-3c23-462a-b0a3-97fe8d6e758d" name="Default Changelist" comment="" />
+    <list default="true" id="77abbbf6-3c23-462a-b0a3-97fe8d6e758d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Luciano.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/clasesTest/AeropuertoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/clasesTest/AviónTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/clasesTest/PilotoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../~$áctico Aeropuerto - Unificación.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aerolínea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clases/Aerolínea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aeropuerto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clases/Aeropuerto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Avión.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clases/Avión.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Piloto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clases/Piloto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vuelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clases/Vuelo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AerolíneaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clasesTest/AerolíneaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AeropuertoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AviónTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PilotoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VueloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clasesTest/VueloTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,6 +70,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TP 1/.project" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -60,6 +80,9 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
@@ -74,6 +97,8 @@
       <option name="presentableId" value="Default" />
       <updated>1589421718670</updated>
       <workItem from="1589421727491" duration="2933000" />
+      <workItem from="1589500260654" duration="978000" />
+      <workItem from="1589548677535" duration="10849000" />
     </task>
     <servers />
   </component>
@@ -90,20 +115,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1589426077054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1589426077054" />
-    <state x="163" y="0" key="#Project_Structure" timestamp="1589425658003">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1589588485521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1589425658003" />
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1589588485521" />
     <state x="413" y="140" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589425694959">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="140" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1589425694959" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589560445388">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589560445388" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1589506679723">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589506679723" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1589426131438">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -120,5 +154,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="225" key="git4idea.rebase.GitRebaseDialog/0.0.1366.728@0.0.1366.728" timestamp="1589425319158" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589561773296">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589561773296" />
   </component>
 </project>
