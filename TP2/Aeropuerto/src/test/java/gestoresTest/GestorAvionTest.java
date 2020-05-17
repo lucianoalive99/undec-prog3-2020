@@ -29,11 +29,12 @@ public class GestorAvionTest {
     }
 
     @Test
-    void crearAvion_yaExisteAvionPorID() {
+    void crearAvion_yaExisteAvionPorID() throws
+            NullPointerException, StringNuloException, FechaIncorrectaException{
 
         // Arrange
         GestorAvion elGestor = new GestorAvion(new LinkedList<Avion>());
-        elGestor.getColeccionAviones().add(new Avion("LV-CDY","Embraer 190",96,2015);
+        elGestor.getColeccionAviones().add(new Avion("LV-CDY","Embraer 190",96,2015));
         int avionesEnColeccion = elGestor.getColeccionAviones().size();
         Avion elAvion = new Avion("LV-CDY","Embraer 190",96,2015);
 
@@ -49,7 +50,7 @@ public class GestorAvionTest {
         }
 
     @Test
-   /* void horasVueloAvion_listaVuelos_devuelveSuma() {
+    /*void horasVueloAvion_listaVuelos_devuelveSuma() {
         Avion avion1 = new Avion(1, "Airbus A340-313X", "LV-FPV", null);
         GestorAvion elGestor = new GestorAvion(new LinkedList<Avion>());
         int horasVuelo = elGestor.horasVueloAvion(crearVuelos(), avion1);

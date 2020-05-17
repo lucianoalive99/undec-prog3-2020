@@ -2,6 +2,7 @@ package clasesTest;
 
 import clases.Avion;
 import exepciones.FechaIncorrectaException;
+import exepciones.MatriculaIncorrectaException;
 import exepciones.StringNuloException;
 import org.junit.jupiter.api.Test;
 
@@ -13,7 +14,7 @@ class AvionTest {
 
     @Test
     void cargarNuevoAvion_creacionCorrecta ()throws
-            NullPointerException, StringNuloException, FechaIncorrectaException{
+            NullPointerException, StringNuloException, FechaIncorrectaException, MatriculaIncorrectaException{
         // Arrange
         String matricula = "LV-CDY";
         String modelo = "Embraer 190";
@@ -32,7 +33,7 @@ class AvionTest {
 
     @Test
     void modificacionAvionExistente_modificacionMatriculaCorrecta()throws
-            NullPointerException, StringNuloException, FechaIncorrectaException{
+            NullPointerException, StringNuloException, FechaIncorrectaException, MatriculaIncorrectaException{
         // Arrange
         String matriculaNueva = "LV-CDZ";
 
@@ -49,7 +50,7 @@ class AvionTest {
 
     @Test
     void cargarNuevoAvion_creacionIncorrecta_sinID_null() throws
-            NullPointerException, StringNuloException, FechaIncorrectaException {
+            NullPointerException, StringNuloException, FechaIncorrectaException, MatriculaIncorrectaException {
         // Arrange y Act
 
         // Assert
@@ -60,7 +61,7 @@ class AvionTest {
 
     @Test
     void cargarNuevoAvion_creacionIncorrecta_sinID_vacio() throws
-            NullPointerException, StringNuloException, FechaIncorrectaException {
+            NullPointerException, StringNuloException, FechaIncorrectaException, MatriculaIncorrectaException {
         // Arrange y Act
 
         // Assert
@@ -71,7 +72,7 @@ class AvionTest {
 
     @Test
     void cargarNuevoAvion_creacionIncorrecta_sinModelo() throws
-            NullPointerException, StringNuloException, FechaIncorrectaException {
+            NullPointerException, StringNuloException, FechaIncorrectaException, MatriculaIncorrectaException {
         // Arrange y Act
 
         // Assert
@@ -84,7 +85,7 @@ class AvionTest {
 
     @Test
     void cargarNuevoAvion_creacionIncorrecta_anioFabricacion() throws
-            NullPointerException, StringNuloException, FechaIncorrectaException {
+            NullPointerException, StringNuloException, FechaIncorrectaException, MatriculaIncorrectaException {
         // Arrange y Act
 
         // Assert
@@ -97,22 +98,19 @@ class AvionTest {
         //assertEquals(2020, );
 
     }
-   /* @Test
-    void cargarNuevoAvion_creacionIncorrecta_formatoMAtriculaIncorrecto(){
+    @Test
+    void cargarNuevoAvion_creacionIncorrecta_formatoMatriculaIncorrecto() throws
+            NullPointerException, StringNuloException, FechaIncorrectaException, MatriculaIncorrectaException {
 
         // Arrange
-        String matricula = "LV-CDY";
-        String modelo = "Embraer 190";
-        int capacidad = 96;
-        int añoFabricacion = 2015;
-
         // Act
-        Avion elAvion = new Avion("LV-CDY","Embraer 190",96,2015);
+
 
         // Assert
+        assertThrows(MatriculaIncorrectaException.class,
+                () -> new Avion("LV-C12","Embraer 190",96,2015));
 
-
-    }*/
+    }
 
 
 }

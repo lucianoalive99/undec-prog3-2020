@@ -1,6 +1,7 @@
 package clases;
 
 import exepciones.FechaIncorrectaException;
+import exepciones.MatriculaIncorrectaException;
 import exepciones.StringNuloException;
 
 import java.util.Calendar;
@@ -47,7 +48,7 @@ public class Avion{
     }
 
     public Avion(String matricula, String modelo, int capacidad, int anioFabricacion) throws
-            NullPointerException, StringNuloException, FechaIncorrectaException {
+            NullPointerException, StringNuloException, FechaIncorrectaException, MatriculaIncorrectaException {
         String salida = "";
         Calendar fecha = Calendar.getInstance();
         int anioActual = fecha.get(Calendar.YEAR);
@@ -66,10 +67,17 @@ public class Avion{
                         throw new FechaIncorrectaException("El año de fabricacion Ingrsado es incorrecto.");
                     }
                     else{
-                        this.matricula = matricula.toUpperCase();
-                        this.modelo = modelo;
-                        this.capacidad = capacidad;
-                        this.anioFabricacion = anioFabricacion;
+                        System.out.println(validaMatricula(matricula));
+                        if(!validaMatricula(matricula)){
+                            throw new MatriculaIncorrectaException("La matricula Ingresada no cumple con el formato AA-AAA.");
+                        }
+                        else {
+                            this.matricula = matricula;
+                            this.modelo = modelo;
+                            this.capacidad = capacidad;
+                            this.anioFabricacion = anioFabricacion;
+                        }
+
                     }
                 }
 
@@ -78,31 +86,12 @@ public class Avion{
 
         }
 
-       /* try{
-            this.matricula = matricula.toUpperCase();
-            this.modelo = modelo;
-            this.capacidad = capacidad;
-            this.añoFabricacion = añoFabricacion;
-            stringNulo(matricula);
-        }catch (NullPointerException ex){
-            salida = "El ID del avion no puede ser nulo/vacio";
-        } catch (StringNuloException ex){
-            salida = ex.getMessage();
-        }
-        System.out.println(salida);*/
     }
 
+    public static boolean validaMatricula(String matri) {
 
-
-    public void formato(String args)
-    {
-        Pattern patron = Pattern.compile("[A-Z]{2}-[A-Z]{3}");
-        Matcher m = patron.matcher(matricula);
-        if(m.find()) {
-            System.out.println("FORMATO CORRECTO");
-        }else{
-            System.out.println("FORMATO INCORRECTO");
-        }
+        return matri.matches("^([A-Z]{2}[-][A-Z]{3})$");
     }
+
 
 }
