@@ -20,12 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77abbbf6-3c23-462a-b0a3-97fe8d6e758d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/clases/Avion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Luciano.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Luciano.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/clases/Avión.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/clasesTest/AviónTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clasesTest/AvionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Práctico Aeropuerto - Unificación.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Práctico Aeropuerto - Unificación.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../~$áctico Aeropuerto - Unificación.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clases/Avion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clases/Avion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/clasesTest/AvionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clasesTest/AvionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clases/Avion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clases/Avion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/clasesTest/AvionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/clasesTest/AvionTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,23 +75,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.AvionTest">
-    <configuration name="AvionTest.modificacionAvionExistente_modificacionMatriculaCorrecta" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Aeopuerto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="clasesTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="clasesTest" />
-      <option name="MAIN_CLASS_NAME" value="clasesTest.AvionTest" />
-      <option name="METHOD_NAME" value="modificacionAvionExistente_modificacionMatriculaCorrecta" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AvionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aeopuerto" />
       <extension name="coverage">
@@ -107,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AvionTest.cargarNuevoAvion_creacionCorrecta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AvionTest.cargarNuevoAvion_creacionIncorrecta_anioFabricacion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aeopuerto" />
       <extension name="coverage">
         <pattern>
@@ -117,13 +100,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="clasesTest" />
       <option name="MAIN_CLASS_NAME" value="clasesTest.AvionTest" />
-      <option name="METHOD_NAME" value="cargarNuevoAvion_creacionCorrecta" />
+      <option name="METHOD_NAME" value="cargarNuevoAvion_creacionIncorrecta_anioFabricacion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AvionTest.cargarNuevoAvion_creacionIncorrecta_sinID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AvionTest.cargarNuevoAvion_creacionIncorrecta_sinID_vacio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aeopuerto" />
       <extension name="coverage">
         <pattern>
@@ -133,7 +116,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="clasesTest" />
       <option name="MAIN_CLASS_NAME" value="clasesTest.AvionTest" />
-      <option name="METHOD_NAME" value="cargarNuevoAvion_creacionIncorrecta_sinID" />
+      <option name="METHOD_NAME" value="cargarNuevoAvion_creacionIncorrecta_sinID_vacio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AvionTest.cargarNuevoAvion_creacionIncorrecta_sinModelo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aeopuerto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clasesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="clasesTest" />
+      <option name="MAIN_CLASS_NAME" value="clasesTest.AvionTest" />
+      <option name="METHOD_NAME" value="cargarNuevoAvion_creacionIncorrecta_sinModelo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AvionTest.modificacionAvionExistente_modificacionMatriculaCorrecta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aeopuerto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clasesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="clasesTest" />
+      <option name="MAIN_CLASS_NAME" value="clasesTest.AvionTest" />
+      <option name="METHOD_NAME" value="modificacionAvionExistente_modificacionMatriculaCorrecta" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,9 +157,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AvionTest" />
-        <item itemvalue="JUnit.AvionTest.cargarNuevoAvion_creacionIncorrecta_sinID" />
-        <item itemvalue="Android JUnit.AvionTest.modificacionAvionExistente_modificacionMatriculaCorrecta" />
-        <item itemvalue="JUnit.AvionTest.cargarNuevoAvion_creacionCorrecta" />
+        <item itemvalue="JUnit.AvionTest.cargarNuevoAvion_creacionIncorrecta_anioFabricacion" />
+        <item itemvalue="JUnit.AvionTest.modificacionAvionExistente_modificacionMatriculaCorrecta" />
+        <item itemvalue="JUnit.AvionTest.cargarNuevoAvion_creacionIncorrecta_sinModelo" />
+        <item itemvalue="JUnit.AvionTest.cargarNuevoAvion_creacionIncorrecta_sinID_vacio" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +177,7 @@
       <workItem from="1589421727491" duration="2933000" />
       <workItem from="1589500260654" duration="978000" />
       <workItem from="1589548677535" duration="12258000" />
-      <workItem from="1589647577011" duration="3240000" />
+      <workItem from="1589647577011" duration="16080000" />
     </task>
     <servers />
   </component>
@@ -181,10 +197,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1589426077054">
+    <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1589671716454">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1589426077054" />
+    <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1589671716454" />
     <state x="163" y="0" key="#Project_Structure" timestamp="1589588485521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -193,18 +209,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589591535323" />
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1589591015217">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589674139729">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589591015217" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1589674139729" />
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1589665435804">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589665435804" />
     <state x="413" y="140" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589425694959">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="140" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1589425694959" />
-    <state x="176" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589649323367">
+    <state x="176" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589672962909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="176" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1589649323367" />
+    <state x="176" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1589672962909" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589560445388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -213,38 +233,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589506679723" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589649899267">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589676605694">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589649899267" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589649899266">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589676605694" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589676605693">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589649899266" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589649899266">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589676605693" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589676605693">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589649899266" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589649899267">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589676605693" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589676605694">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589649899267" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589649323924">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589676605694" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589674849176">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589649323924" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1589649323924">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589674849176" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1589674849176">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589649323924" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1589649323924">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589674849176" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1589674849176">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589649323924" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1589649323924">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589674849176" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1589674849176">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589649323924" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589674849176" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1589426131438">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -261,6 +281,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="225" key="git4idea.rebase.GitRebaseDialog/0.0.1366.728@0.0.1366.728" timestamp="1589425319158" />
+    <state x="526" y="121" key="refactoring.ChangeSignatureDialog" timestamp="1589676218255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="526" y="121" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1589676218255" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1589674564549">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1589674564549" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589561773296">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
