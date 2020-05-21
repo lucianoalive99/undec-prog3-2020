@@ -56,7 +56,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../prog3-2020 - PARA PRACTICA NO GITHUB/TP2/Aeropuerto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -177,6 +177,7 @@
       <workItem from="1589548677535" duration="12258000" />
       <workItem from="1589647577011" duration="22148000" />
       <workItem from="1589745927416" duration="6985000" />
+      <workItem from="1590026902025" duration="327000" />
     </task>
     <servers />
   </component>
@@ -280,6 +281,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="177" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1589426341023" />
+    <state x="1466" y="99" width="1720" height="880" key="dock-window-1" timestamp="1590027228735">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1466" y="99" width="1720" height="880" key="dock-window-1/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1590027228735" />
     <state x="488" y="225" key="git4idea.rebase.GitRebaseDialog" timestamp="1589425319158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
